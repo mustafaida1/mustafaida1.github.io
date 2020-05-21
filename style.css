@@ -1,0 +1,61 @@
+.container{
+	
+	display: flex;
+	flex-wrap: wrap;
+	
+	justify-content: center;
+
+}
+.head{
+	width: 100%;
+	float:left;
+	background-color: royalblue;
+	color:white;
+	font-size: 40px;
+	position: sticky;
+	top:0;
+
+
+}
+ul{
+	display: inline;
+
+
+}
+li{
+	display: inline;
+	padding: 3px;
+	list-style: none;
+}
+#logo{
+	float:right;
+	font-size: 60px;\
+	font-family: verdana;
+
+}
+#logo:hover{
+	color:blue;
+}
+
+img:hover{
+	transition: all 22s;
+	transform: scale(15.1);
+
+}
+a:visit{
+	color:red;
+
+}
+a:hover{
+	color:yellow;
+
+}
+a:link{
+	color:blue;
+	list-style: none;
+	display: inline-block;
+}
+.footer{
+	background-image:url(2.jpg);
+	&copy 
+}

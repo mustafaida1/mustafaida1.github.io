@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>
+		How to change Input character
+		to Upper Case while typing
+		using CSS/JavaScript ?
+	</title>
+
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+</head>
+
+<body >
+
+	<h1 style = "color: green">
+		Text input From User to check Uppercase or Not
+	</h1>
+
+	<p id = "GFG_UP" style =
+		"font-size: 20px; font-weight: bold;">
+		Type in the input box in lower
+		case to see the effect for jquery code.
+	</p>
+
+	Enter any Keyword<input id="yourid" type="text" style="color:red" />
+
+	<br><br>
+
+	<script>
+		$(function() {
+			$('input').keyup(function() {
+				this.value = this.value.toLocaleUpperCase();
+
+			});
+    });
+
+
+	</script>
+</body>
+
+</html>

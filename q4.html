@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta >
+    <title>question 4</title>
+    <script>
+    function randomize() {
+  document.getElementById('color').style.color = randomColors();
+}
+
+function randomColors() {
+  return '#' + Math.floor(Math.random() * 16777215).toString(16);
+}
+</script>
+  </head>
+  <body>
+
+<div>
+<p id="color">Ahmed Hassan!, student at Lovely Professional University  </p>
+
+</div>
+
+<button id="color" onclick="randomize()">change colors</button>
+  </body>
+</html>

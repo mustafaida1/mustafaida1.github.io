@@ -1,0 +1,26 @@
+<head>
+
+<title>question 6</title>
+
+<script>
+  function getFormvalue()
+  {
+    var x=document.getElementById("form1");
+    for (var i=0;i<x.length;i++)
+    {
+     if (x.elements[i].value!='Submit')
+      {
+        console.log(x.elements[i].value);
+       }
+     }
+  }
+
+  </script>
+  </head>
+<body>
+<form id="form1" onsubmit="getFormvalue()">
+First name: <input type="text" name="fname" value="Ahmed" ><br>
+Last name: <input type="text" name="lname" value="ALi"><br>
+<input type="submit" value="Submit">
+</form>
+</body>
